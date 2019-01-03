@@ -9,6 +9,10 @@ mogrify -shave 1x2 *.png
 - Closing the tunnel after starting a render also doesnot kill the job
 - Logging out of cheyenne also doesnot kill the job
 
+- Squeezing performance out of blender on supers
+1. Enable GPU rendering in user preferences and in the render panel
+2. Adjust the tile size. The default tile size might not be the fastest option.
+
 - To run a render from command line: 
 1. Set up the project through an interactive session
 2. Set an alias (have to do it only once); Ex: alias blender="<BLENDER_INSTALL_FOLDER>/blender"
