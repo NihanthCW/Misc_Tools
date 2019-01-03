@@ -9,6 +9,11 @@ mogrify -shave 1x2 *.png
 - Closing the tunnel after starting a render also doesnot kill the job
 - Logging out of cheyenne also doesnot kill the job
 
+- To run a render from command line: 
+1. Set up the project through an interactive session
+2. Set an alias (have to do it only once); Ex: alias blender="<BLENDER_INSTALL_FOLDER>/blender"
+3. Run from the folder containing the blend file; Ex: blender -b <.blend_file> -a -x 1 -o //render
+
 # Shell
 Rename files to seq. numbers
 a=1
