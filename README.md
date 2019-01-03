@@ -1,7 +1,6 @@
 # ImageMagick
 - resize
 mogrify -resize 1024x1024! -quality 100 *.png
-
 - remove border (1 pixel width. each side and 2 pixels height each side)
 mogrify -shave 1x2 *.png
 
