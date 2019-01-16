@@ -16,6 +16,7 @@ mogrify -shave 1x2 *.png
   - Speeding up cycles: https://www.youtube.com/watch?v=8gSyEpt4-60
   - Composition: BG
   - Color: BG
+  - Lighting: BG
   - Photorealism: BG
   - Depth Of Field: ?
 
