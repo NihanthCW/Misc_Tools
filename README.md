@@ -12,6 +12,13 @@ mogrify -shave 1x2 *.png
 - Squeezing performance out of blender on supers
 1. Enable GPU rendering in user preferences and in the render panel
 2. Adjust the tile size. The default tile size might not be the fastest option.
+Additional Resources:
+- Speeding up cycles: https://www.youtube.com/watch?v=8gSyEpt4-60
+- Composition: BG
+- Color: BG
+- Photorealism: BG
+- Depth Of Field: ?
+- 
 
 - To run a render from command line: 
 1. Set up the project through an interactive session
